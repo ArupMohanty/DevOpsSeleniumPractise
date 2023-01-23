@@ -7,6 +7,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Emirates {
 	@Test
 	public static void emiratesLoginPage() throws InterruptedException {
@@ -14,7 +16,8 @@ public class Emirates {
 		//Below 2 lines code are to click on the Webpage notification (Push notifications)
 		//ChromeOptions options = new ChromeOptions();
 		//options.addArguments("--disable-notifications");
-		System.setProperty("webdriver.chrome.driver", "D:\\SeleniumWork\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "D:\\SeleniumWork\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.emirates.com/");
 		driver.manage().window().maximize();
@@ -23,6 +26,7 @@ public class Emirates {
 		String expectedTitel = "Emirates | Fly Better";
 		String originalTitel = driver.getTitle();
 		Assert.assertEquals(expectedTitel, originalTitel);
+		driver.quit();
 	}
 	
 	

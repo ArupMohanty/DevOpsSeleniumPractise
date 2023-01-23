@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-15T20:07:32 GMT" name="Suite" finished-at="2023-01-15T20:07:38 GMT" duration-ms="6249">
+  <suite started-at="2023-01-23T18:25:06 GMT" name="Default suite" finished-at="2023-01-23T18:25:31 GMT" duration-ms="25556">
     <groups>
     </groups>
-    <test started-at="2023-01-15T20:07:32 GMT" name="Test" finished-at="2023-01-15T20:07:38 GMT" duration-ms="6249">
-      <class name="DevOpsSeleniumPractise.DevOpsSeleniumPractise.Emirates">
-        <test-method signature="emiratesLoginPage()[pri:0, instance:DevOpsSeleniumPractise.DevOpsSeleniumPractise.Emirates@61862a7f]" started-at="2023-01-15T20:07:32 GMT" name="emiratesLoginPage" finished-at="2023-01-15T20:07:38 GMT" duration-ms="6207" status="PASS">
+    <test started-at="2023-01-23T18:25:06 GMT" name="Default test" finished-at="2023-01-23T18:25:31 GMT" duration-ms="25556">
+      <class name="DevOpsSeleniumPractise.DevOpsSeleniumPractise.Spicejet">
+        <test-method signature="spicejetLoginPage()[pri:0, instance:DevOpsSeleniumPractise.DevOpsSeleniumPractise.Spicejet@61862a7f]" started-at="2023-01-23T18:25:06 GMT" name="spicejetLoginPage" finished-at="2023-01-23T18:25:31 GMT" duration-ms="25509" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- emiratesLoginPage -->
-      </class> <!-- DevOpsSeleniumPractise.DevOpsSeleniumPractise.Emirates -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- spicejetLoginPage -->
+      </class> <!-- DevOpsSeleniumPractise.DevOpsSeleniumPractise.Spicejet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

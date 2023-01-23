@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DevOpsSeleniumPractise.DevOpsSeleniumPractise.SpiceJet">
+      <class name="DevOpsSeleniumPractise.DevOpsSeleniumPractise.Emirates">
         <methods>
-          <include name="spiceJetLoginPage"/>
+          <include name="emiratesLoginPage"/>
         </methods>
-      </class> <!-- DevOpsSeleniumPractise.DevOpsSeleniumPractise.SpiceJet -->
+      </class> <!-- DevOpsSeleniumPractise.DevOpsSeleniumPractise.Emirates -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
